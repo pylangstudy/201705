@@ -7,7 +7,7 @@
 * https://www.python.org/
     * https://www.python.org/dev/peps/
 
-主に[https://docs.python.jp/3/]を読んで学習を進める予定。[https://docs.python.jp/3/contents.html]の葉見出しを1つの単位とする。
+主に https://docs.python.jp/3/ を読んで学習を進める予定。 https://docs.python.jp/3/contents.html の葉見出しを1つの単位とする。
 
 ### 順序
 
@@ -21,4 +21,3 @@
 
 * 環境構築
 * サードパーティ製ライブラリ
-
