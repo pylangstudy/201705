@@ -1,0 +1,9 @@
+DocumentUrl	Title	GitHubUrl
+whatsnew/index.html	What’s New in Python	
+whatsnew/3.6.html	What’s New In Python 3.6	
+whatsnew/3.6.html#summary-release-highlights	概要 – リリースハイライト	-
+whatsnew/3.6.html#new-features	新しい機能	-
+whatsnew/3.6.html#pep-498-formatted-string-literals	PEP 498: フォーマット済み文字列リテラル	https://github.com/pylangstudy/201705/tree/master/25/01/pylangstudy.HeadingToAggregate.201705252124
+whatsnew/3.6.html#pep-526-syntax-for-variable-annotations	PEP 526: 変数アノテーションのシンタックス	
+whatsnew/3.6.html#pep-515-underscores-in-numeric-literals	PEP 515: 数値リテラル内のアンダースコア	
+whatsnew/3.6.html#pep-525-asynchronous-generators	PEP 525: 非同期ジェネレータ	
