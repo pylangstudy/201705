@@ -3,8 +3,8 @@ window.onload = function(){
 }
 function Main()
 {
-    var tsvUrl = "https://raw.githubusercontent.com/pylangstudy/201705/master/25/01/pylangstudy.HeadingToAggregate.201705252124/contents.tsv"
-//    var tsvUrl = "./contents.tsv"
+//    var tsvUrl = "https://raw.githubusercontent.com/pylangstudy/201705/master/25/01/pylangstudy.HeadingToAggregate.201705252124/contents.tsv"
+    var tsvUrl = "./contents.tsv"
     CreateAggregateTable(tsvUrl);
     CreateHeadingTable(tsvUrl);
 }
@@ -66,7 +66,8 @@ function CreateHeadingTable(tsvUrl) {
         tbody.selectAll('tr')
             .data(data)
             .enter()
-            .append('tr')
+//            .append('tr')
+            .append(function(row) { return GetTr(row); })
                 .selectAll('td')
                 .data(function (row) { 
                     return GetRowData(row);
@@ -75,6 +76,19 @@ function CreateHeadingTable(tsvUrl) {
                 .append('td')
                 .append(function(d) { return GetTd(d); })
     });
+}
+
+function GetTr(row) {
+    tr = document.createElement('tr');
+    if (!row.hasOwnProperty('GitHubUrl')) {return tr;}
+    else if ('' == row['GitHubUrl']) { d3.select(tr).attr('class', "Unfinished"); }
+    else if ('-' == row['GitHubUrl']) { d3.select(tr).attr('class', "ZeroFinished"); }
+    else if (row['GitHubUrl'].startsWith('http://')
+          || row['GitHubUrl'].startsWith('https://')) {
+        d3.select(tr).attr('class', "Finished");
+    }
+    else {throw new Error("'tsvの3列目には空値,-,URLのどれかを記入してください。: " + row['GitHubUrl']);}
+    return tr;
 }
 
 function GetHeader() {
