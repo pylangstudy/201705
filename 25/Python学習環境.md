@@ -13,6 +13,8 @@
             * GitHub
                 * Account: pylangstudy
 
+[Python学習環境を用意する](https://github.com/pylangstudy/201705/27/Python学習環境を用意する.md)参照。
+
 ## ハードウェア
 
 旧型ノートPC。
