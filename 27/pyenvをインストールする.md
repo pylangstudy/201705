@@ -1,6 +1,6 @@
 # pyenvをインストールする
 
-* 前回: [Python学習環境を用意する](https://github.com/pylangstudy/201705/27/Python学習環境を用意する.md)
+< [Python学習環境を用意する](https://github.com/pylangstudy/201705/blob/master/27/Python%E5%AD%A6%E7%BF%92%E7%92%B0%E5%A2%83%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B.md)
 
 ## 目的
 

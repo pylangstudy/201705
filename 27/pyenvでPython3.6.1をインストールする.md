@@ -1,6 +1,6 @@
 # pyenvでPython3.6.1をインストールする
 
-< [pyenvをインストールする](https://github.com/pylangstudy/201705/27/pyenvをインストールする.md) < [Python学習環境を用意する](https://github.com/pylangstudy/201705/27/Python学習環境を用意する.md)
+< [pyenvをインストールする](https://github.com/pylangstudy/201705/blob/master/27/pyenv%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B.md) < [Python学習環境を用意する](https://github.com/pylangstudy/201705/blob/master/27/Python%E5%AD%A6%E7%BF%92%E7%92%B0%E5%A2%83%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B.md)
 
 ## Pythonのコンパイルに必要なライブラリをインストールする
 

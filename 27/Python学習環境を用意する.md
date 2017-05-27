@@ -18,6 +18,6 @@ Python3.6.1|今回学習するPythonのバージョン
 
 ## 手順
 
-1. [pyenvをインストールする](https://github.com/pylangstudy/201705/27/)
-1. [pyenvでPython3.6.1をインストールする](https://github.com/pylangstudy/201705/27/)
+1. [pyenvをインストールする](https://github.com/pylangstudy/201705/blob/master/27/pyenv%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B.md)
+1. [pyenvでPython3.6.1をインストールする](https://github.com/pylangstudy/201705/blob/master/27/pyenv%E3%81%A7Python3.6.1%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B.md)
 
