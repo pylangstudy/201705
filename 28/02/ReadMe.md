@@ -1,6 +1,6 @@
 # [3.1.1. 数](https://docs.python.jp/3/tutorial/introduction.html#numbers)
 
-< [3.1. Python を電卓として使う](https://docs.python.jp/3/tutorial/introduction.html#using-python-as-a-calculator) < [3. 形式ばらない Python の紹介](https://docs.python.jp/3/tutorial/introduction.html#an-informal-introduction-to-python)
+< [3.1. Python を電卓として使う](https://docs.python.jp/3/tutorial/introduction.html#using-python-as-a-calculator) < [3. 形式ばらない Python の紹介](https://docs.python.jp/3/tutorial/introduction.html#an-informal-introduction-to-python) < [Python チュートリアル](https://docs.python.jp/3/tutorial/index.html)
 
 ## 対話モードによる数値演算
 
