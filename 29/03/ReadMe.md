@@ -119,7 +119,7 @@ key3: value3
 
 #### コンストラクタでは順序が保たれない罠
 
-なんと、コンストラクタで初期化すると順序が保たれない……。残念すぎる。バグの元。
+なんと、コンストラクタで以下のように初期化すると順序が保たれない……。残念すぎる。バグの元。
 
 ```python
 d = OrderedDict({'key1': 'value1', 'key2': 'value2', 'key3': 'value3'})
@@ -170,4 +170,20 @@ key3: value3
 ```
 
 http://shannon-lab.org/?p=1743
+
+tuple型を使う。変数名と代入式を書かずに済むため短くなるのは嬉しい。しかし以下の欠点もある。
+
+* Key-Valueであることがパッと見わかりづらい
+* 間違ってkey,valueの2個より多かったり少なかったりすると以下のエラーになる
+
+```sh
+ValueError: too many values to unpack (expected 2)
+```
+
+少ない時も`too many`(多すぎる)という。`expected 2`(期待値2)ということさえわかれば伝わるが。
+
+```python
+d = OrderedDict( (('key1','value1', 'KeyでもValueでもない'), ('key2','value2'), ('key3','value3')) )
+d = OrderedDict( (('key1'), ('key2','value2'), ('key3','value3')) )
+```
 
