@@ -13,7 +13,8 @@
 0.py
 ```python
 while True:
-    pass # Busy-wait for keyboard interrupt (Ctrl+C, Ctrl+D, Ctrl+Z)```
+    pass # Busy-wait for keyboard interrupt (Ctrl+C, Ctrl+D, Ctrl+Z)
+```
 ```sh
 $ python3 0.py
 ```
