@@ -1,0 +1,3 @@
+def MyFunc():
+    pass
+MyFunc()
