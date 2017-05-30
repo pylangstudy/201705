@@ -27,6 +27,7 @@
 
 > 引数はタプル ([タプルとシーケンス](https://docs.python.jp/3/tutorial/datastructures.html#tut-tuples) を参照) に格納されます。
 
+0.py
 ```python
 def MyFunc(*args):
     for arg in args:
@@ -49,6 +50,7 @@ def
 
 > 可変 引数は、関数に渡される入力引数の残りを全て掬い取るために、仮引数リストの最後に置かれます。
 
+1.py
 ```python
 def MyFunc(title, *args):
     print('***** ' + title + ' *****')
@@ -69,7 +71,7 @@ abc
 listやtupleの前に`*`を付与することで可変引数リストとしてlistデータを渡せる。
 
 2.py
-```
+```python
 def MyFunc(title, *args):
     print('***** ' + title + ' *****')
     for arg in args:
@@ -175,6 +177,7 @@ abc
 
 キーワード引数を前にすると、今度はキーワード指定した方法で呼出たときにエラーになる。
 
+6.py
 ```python
 def MyFunc(option='オプション引数値です。', *args):
     print('----- option={0}'.format(option))
@@ -213,6 +216,7 @@ MyFunc() got multiple values for argument 'option'
 
 リストやタプルだけでなく、辞書も引数に渡せる。
 
+7.py
 ```python
 def MyFunc(**kwargs):
     print('----- MyFunc -----')
@@ -235,6 +239,7 @@ key2 value2
 
 ## 引数＋引数リスト＋引数辞書
 
+8.py
 ```python
 def MyFunc(req, *args, **kwargs):
     print('----- MyFunc -----')
