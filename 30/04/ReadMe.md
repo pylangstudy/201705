@@ -14,6 +14,7 @@
 
 > アノテーションは関数の __annotations__ 属性に辞書として格納され、関数の他の部分には何も影響がありません。
 
+0.py
 ```python
 def intro(name: str, age: int) -> str:
     print(intro.__annotations__)
@@ -31,6 +32,7 @@ $ python3 0.py
 
 ## エラーは出してくれない
 
+1.py
 ```python
 def intro(name: str, age: int) -> str:
     print(intro.__annotations__)
@@ -48,6 +50,7 @@ $ python3 1.py
 
 ## デフォルト値を指定すると読みづらい
 
+2.py
 ```python
 def intro(name: str='default', age: int=100) -> str:
     print(intro.__annotations__)
